@@ -9,3 +9,11 @@ git config user.email cuervogaston@gmail.com
 
 para linkear el repositorio de gitHub con el de la maquina
 git remote add origin https://github.com/gcuervo/CoderHouse.git
+
+git branch -v "" lista todas las ramas
+
+git checkout -b my-brancho  // salir del branch actual,crea y entrar en my-brancho
+
+git checkout masteer  // salir del branch actual,entrar en master
+
+git reset --soft HEAD~1   // apra volver un punto anterior
