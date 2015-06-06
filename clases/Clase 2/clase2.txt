@@ -1,4 +1,11 @@
+*.md // markdown
+
 git init
 git add .  // agrega todo
 git add /folder   // agrega la carpeta
-git config
+git commit -m "coments"
+git config user.name "Gaston"
+git config user.email cuervogaston@gmail.com
+
+para linkear el repositorio de gitHub con el de la maquina
+git remote add origin https://github.com/gcuervo/CoderHouse.git
