@@ -1,0 +1,66 @@
+
+body {
+	padding: 5px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a {
+	margin-top: 120px;
+}
+
+:focus{
+	background-color: red;
+}
+
+a[class="foo"]{
+
+}
+
+a[href="_Blank"]{
+
+}
+
+.whitefont{
+	
+}
+
+.main > a {       /* los hijos directos de esta clase */
+	color: red;
+}
+
+.main a {       /* todos los a dentro de main */
+
+}
+
+h2 ~ p {       /* los elementos en el mismo nivel */
+	color: red;
+}
+
+#right{
+
+}
+
+
+/* se aplica a todo, reduce performance. El navegador sobre escribe lo general con lo mas especifico */
+* { 
+
+}
+
+html, body{
+
+}
+
+
+
+/*  pseudo elementos  */
+
+.phone::before {
+
+}
+
+li:nth-child(2n+3) {
+
+}

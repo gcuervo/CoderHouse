@@ -1,0 +1,49 @@
+codersab1.slack.com code domain for slack
+
+Single page application, recargar solo una parte de la pagina.
+
+El concepto basico de aplicacion web es recargar por modulos y no la web completa.
+
+Etiquetas:
+
+<!DOCTYPE html>		Defino html5
+
+
+
+cada etiqueta tiene un set de atributos standard y otro set de particulares.
+
+
+div, span
+en html5 agregaron
+
+section, header, footer, article
+
+div:
+    La etiqueta div ocupa por default todo el espacio del ancho.Es una etiquera de bloque.
+
+span:
+    Es una etiqueta del estilo div pero inline.
+
+    Antes se usaba
+<div id="page">
+    <div id="Header"></div>         ahiora es <header></header>
+    <div id="main"></div>
+    <div id="footer"></div>
+</div>
+Debido a que no existia header, body y footer.
+
+Usar el nav para crear la barra de navegación.
+
+para crear el login por ej:
+<header>
+    <section></section>
+    <section></section>
+</header>
+
+para el contenido en si usar un main o div. Utilizar section par acada una de las partes.
+
+en medidas relaticas, es mejor usar "em" para los dispositivos moviles, mas que nada en las fuentes.
+
+Los navegadores utilizan una ventana llamada view port.
+
+los user agent style sheet .. son los standard que aplica el browser

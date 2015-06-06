@@ -1,0 +1,4 @@
+git init
+git add .  // agrega todo
+git add /folder   // agrega la carpeta
+git config
