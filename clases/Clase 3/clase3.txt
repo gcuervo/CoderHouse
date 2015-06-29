@@ -1,0 +1,36 @@
+no todas las properties se heredan a elemmentos dentro de otros, por ejemplo box-sizing es uno de ellos.
+
+para saber cuales se heredan y cuales no, ir  al help de mozilla
+
+utilizar box-sizing: border-box; para simplificar problemas.
+
+En la pestaña computed se listan todas las propiedades que hay y cuales se estan utilizando.
+
+position: static; es lo que se usa por defaul, en chrome al menos.
+
+Cuando se trata de posicionar, elejir un punto como referencia. De esta manera utilizar solo top y right o bottom y right ...
+
+Cuando no hay position en un elemento, va escalando por los parents hasta encontrar uno.
+
+***********
+position absolut busca el primer padre con position distinto a static. 
+
+con position fixed, se logra la barra (arriba o abajo) que se mantiene en la pantalla.
+*************
+
+No es una manera normal el usar position para posicionar los elementos, es mas comun utilizar float. Estas flotan dentro del padre.
+
+Cuando definimos max width para que el contenido se limite hasta un ancho en particular y si sigue creciendo que aumente el tamaño en altura, no hay que definir un height.
+
+
+Siempre se buscar realizar posicionamiento dinamico.
+
+			centrado Vertical
+
+con vertical-align: mid y display:inline-block se puede centrar verticalmente
+
+
+
+			Position Absolute
+
+Siempre dentro de un position: relative.

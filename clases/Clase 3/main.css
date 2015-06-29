@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;  /* se aplica a todos los 
+								elementos para ser consistentes */
+}
+
+body {
+	margin: 60px 0 0;
+}
+
+#content {
+	border: 2px solid black;
+	width: 50px;
+	padding: 5px;
+}
+
+.position-relative-ex {
+	position: relative;
+	top: 10px;
+
+}
+
+.position-absolute-ex {
+	position: relative;
+	height: 40px;
+	background-color: red;
+	width: 40px
+}
+
+.position-absolute-ex > div {   /* ">" esto me dice que los hijos directos dentro de div 
+									tengan esta clase */
+	position: absolute;
+	height: 40px;
+	background-color: green;
+	width: 40px
+}
+
+.position-fixed {
+	top: 0;
+	position: fixed;
+	height: 30px;
+}
+
+.float-ex {
+	height: 80px;
+}
+
+.float-left {
+	background-color: red;
+	float: left;
+	height: 40px;
+	width: 40px;
+}
+
+.float-right {
+	background-color: green;
+	float: right;
+	height: 40px;
+	width: 40px;
+}
+
+.br {
+	clear:both;
+}
+
+/* utilizar esto para que solo floten los elementos dentro de la clase */
+.clearfix {
+	overflow:auto;  /* controla cuando un contenido se excede una caja y permite que las cosas de afuera del div no floten*/
+	zoom: 1;		/* Esto utilizaba el IE viejo */
+}
+
+.display-inline-ex li{
+	display: inline-block;
+}
+
+
+/* la propiedad display: none;  oculta el elemento, con visibility, 
+se ocultan pero ocupan el espacio, con none no lo usan .. se utiliza mucho en propagandas */
+
+.flexbox-ex {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	border: 1px solid black;
+	height: 100px;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.flexbox-ex div{
+	background-color: red;
+	height: 40px;
+	width: 40px;
+}

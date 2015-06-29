@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+#content {
+	border: 3px solid green;
+}
+
+.nav-left {
+	border: 3px solid green;
+	position: absolute;
+	width: 220px;
+}
+
+p {
+	padding: 20px 0;
+}
+
+.resize {
+	border: 3px solid green;
+	margin-left: 220px;
+	/*position: relative;  no es necesario  */
+	/* max-width: 100%;   no es necesario  */
+}
+

@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/* height: 100%; */
+}
+
+#content {
+	border: 3px solid green;
+	height: 100%;
+	position: relative;
+}
+
+.nav-left {
+	border: 3px solid green;
+	width: 220px;
+	float:left;
+}
+
+p {
+	padding: 20px 0;
+}
+
+
+
+.resize {
+	/* float: right;  No es necesario, 
+	con esta propiedad funciona como un inline-block*/
+	border: 3px solid green;
+	margin-left: 220px;
+	/*position: relative;  no es necesario  */
+	/* max-width: 100%;   no es necesario  */
+}
+
+
+.center {
+	overflow: auto;
+	/* width: 220px; */
+	/* height: 100%; */
+	position: absolute;
+	width: 220px;
+	left: 0;
+	top: 0;
+}

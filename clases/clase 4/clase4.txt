@@ -1,0 +1,6 @@
+La naturalezad de un alert("") es bloqueante. Se puede utilizar como debbug, ya que todo se detiene hasta dar ok. Es una funcionalidad del browser, no de javascript.
+
+Las variables se inicializan como "undefined"
+
+bananabread DEMO
+

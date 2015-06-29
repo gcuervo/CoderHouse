@@ -1,0 +1,29 @@
+/* Pensar en componentes */
+.MyNav {
+
+}
+
+.MyNav-list {
+	display: inline;		/* Se ajusta al contenido */
+	display: inline-block;  /* se ajusta al contenido pero me deja separar con alguna unidad de medida ej: px; */
+}
+
+/* Reservo u- para todos las etiquetas que no sean componentes ej: u-colorRed */
+
+
+body {
+	font-size: 20px;
+}
+
+.primerDiv {
+	width: 6em;    /* Este tamaño se basa en el tamaño del body, multiplica el valor "em" por el tamaño del font-size */
+	margin-top: 50px;
+	margin: 0 auto;  /* si o si se necesita declarar el width */
+	/*
+	el 0 se aplica en margin-top y margin bottom.
+	*/
+}
+
+.segundoDiv {
+	width: 10em;
+}

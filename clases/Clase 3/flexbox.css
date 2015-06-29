@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/* height: 100%; */
+}
+
+#content {
+	border: 3px solid green;
+	height: 100%;
+	position: relative;
+}
+
+.nav-left {
+	border: 3px solid green;
+
+}
+
+p {
+	padding: 20px 0;
+}
+
+.resize {
+	/* float: right;  No es necesario, 
+	con esta propiedad funciona como un inline-block*/
+	border: 3px solid green;
+	margin-left: 220px;
+	/*position: relative;  no es necesario  */
+	/* max-width: 100%;   no es necesario  */
+}
+
+.flexbox-ex {
+	
+}
+
+.center {
+	overflow: auto;
+	/* width: 220px; */
+	/* height: 100%; */
+	position: absolute;
+	width: 220px;
+	left: 0;
+	top: 0;
+}
+
+.flexbox-ex > .center{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	height: 100%;
+}
+
+/*
+.flexbox-ex div{
+	background-color: red;
+	height: 40px;
+	width: 40px;
+}
+*/
+
+
+/* responsive */
+
+@media (max-width: 480px) {
+	.center {
+		position: static;
+		width: 100%;
+	}
+
+	.resize {
+	margin-left: 0px;
+
+	}
+
+}
