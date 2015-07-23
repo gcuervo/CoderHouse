@@ -1,0 +1,38 @@
+si a una variable me olvido de declararla con var, esta se convierte en global
+
+Siempre que se declara una variable en una funcion, no importa en que lugar , la declaracion sube arriba de todo
+
+##Objetos
+
+Las keys siempre debn ser strings. si ingresamos algo que no es string y puede lo convierte al tipo string.
+pra crear objetos hacemos
+
+>var obj = {};
+var obj = { a:1};
+var obj = {
+    a: 1,
+    b: 2
+};
+
+accedemos a "a" de esta manera:
+obj["a"];
+
+obj.a
+
+los valores de las key pueden ser cualquiera.
+
+no se pueden acceder a keys por meio del "." si estas empiezan con un numero.
+
+Para obtener las keys de un objeto: Object.Keys(objencuestion);
+
+devuelve un array con las keys de tipo string
+
+la ntacion del punto es para acceder a algo estatico y la notacion del corchete para algo dinamico.
+
+la funcion some(function(curEl){}); es como el forEach pero orta cuando se retorna true 
+
+jQuery es una libreria de javascript
+
+el simbolo "$" es igual a decir jQuery, este simbolo me da funcionalidades de jQuery
+
+el selector te permite acceder a elementos del DOM (HTML)

@@ -1,35 +1,37 @@
 // funcion para dar vuelta un string
 
-function turn(string){
+	function turn(string){
 
-var newString,i,j;		
-var dim = string.length;	
-	newString = new String();
-	for(i=0,j=dim-1 ; i < dim ;j--, i++){			
-		newString =  newString.concat(string[j]);
+	var newString,j;		
+	var dim = string.length;	
+		newString = "";   // crear de manera literal
+		for(j=dim-1 ; j >= 0 ;j--){			
+			newString =  newString.concat(string[j]);
+		}
+
+		return newString;
 	}
 
-	return newString;
-}
-
-var string = prompt("ingrese string:");
-var ans = turn(string);
-console.log(ans);
+	var string = prompt("ingrese string:");
+	var ans = turn(string);
+	console.log(ans);
 
 
 // funcion para dar vuelta un Array
-function turn(arr){
+	function turn(arr){
 
-	var newArray,i,j;
-	var dim = arr.length;
-	newArray= new Array();
-	for(i=0,j=dim-1 ; i < dim ;j--, i++){
-		newArray.push(arr[j]);
+		var newArray,i,j;
+		var dim = arr.length;
+		newArray= [];   
+		for(j=dim-1 ; j >= 0 ;j--){
+			newArray.push(arr[j]);
+		}
+
+		return newArray;
 	}
 
-	return newArray;
-}
+	var array = [1,2,3,4,5,6,7,8,9];
+	var ans = turn(array);
+	console.log(ans);
 
-var array = [1,2,3,4,5,6,7,8,9];
-var ans = turn(array);
-console.log(ans);
+
