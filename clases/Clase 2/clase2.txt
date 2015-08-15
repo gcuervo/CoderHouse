@@ -20,6 +20,8 @@ git reset --soft HEAD~1   // apra volver un punto anterior
 
 git merge my-brancho
 
+git push origin nuevo branch  /necesario
+
 git push -f origin "numero de branch"
 
 CSS
